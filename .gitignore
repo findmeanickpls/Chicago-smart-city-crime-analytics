@@ -1,0 +1,14 @@
+# Ignore large datasets
+*.csv
+*.tsv
+
+# Allow a small sample CSV
+!crime_sample_1000.csv
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+
